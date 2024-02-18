@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: gray;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todoCard {
+  background-color: #6c6e6d;
+  width: 400px;
+  height: 80vh;
+  scroll-behavior: smooth;
+  border-radius: 10px;
+  padding: 0 20px;
+  overflow: hidden;
+}
+
+.todoCard h1 {
+  text-align: center;
+  color: orange;
+  font-family: "Times New Roman", Times, serif;
+  /* margin-bottom: 20px; */
+  width: 90%;
+  background-color: #573b3b;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 0 auto 20px auto;
+}
+#inputTodo {
+  width: 72%;
+  height: 35px;
+  border-radius: 10px;
+  border: 2px solid orange;
+  padding-left: 5px;
+  box-sizing: border-box;
+}
+#addBtn {
+  background-color: orange;
+  padding: 5px 10px;
+  color: white;
+  /* height: 30px;
+  width: 23%; */
+  border-radius: 10px;
+  border: 2px solid black;
+}
+.deleteMessage {
+  width: 100%;
+  background-color: #d64843;
+  padding: 0 10px;
+  margin: 10px 0;
+  color: #f0df5a;
+}
+.addMessage {
+  width: 100%;
+  background-color: aquamarine;
+  padding: 0 10px;
+  margin: 10px 0;
+  color: #429808;
+}
+.todoList {
+  margin-top: 20px;
+}
+.todoItem {
+  background-color: #bcbabab3;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 10px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  margin: 10px 0;
+}
+.todoItem .todo {
+  display: inline-block;
+  width: 85%;
+  padding: 5px 0 5px 15px;
+  color: whitesmoke;
+}
+
+.todoItem .deleteBtn {
+  margin: 5px;
+  padding: 3px;
+  background-color: red;
+  border-radius: 20%;
+  border: #573b3b solid 2px;
+}
+.deleteBtn img {
+  height: 20px;
+  width: 20px;
+  padding: 5px;
+}
